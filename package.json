@@ -1,0 +1,9 @@
+{
+    "name": "vue-ellipsis-multiline",
+    "version": "0.0.1",
+    "description": "Vue.js 2.x directive for multiline text ellipsis.",
+    "main": "index.js",
+    "repository": "d1buts/vue-ellipsis-multiline",
+    "author": "Dmytro Bushchuk <d.bushchuk@outlook.com>",
+    "license": "MIT"
+  }
