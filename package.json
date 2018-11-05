@@ -2,8 +2,15 @@
     "name": "vue-ellipsis-multiline",
     "version": "0.0.1",
     "description": "Vue.js 2.x directive for multiline text ellipsis.",
-    "main": "index.js",
+    "main": "build/index.js",
     "repository": "d1buts/vue-ellipsis-multiline",
     "author": "Dmytro Bushchuk <d.bushchuk@outlook.com>",
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "scripts": {
+      "build": "babel src -d build"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-preset-env": "^1.7.0"
+    }
+}
